@@ -26,7 +26,7 @@ public class loginServlet extends HttpServlet {
         String login; 
         String password;
          
-        login = request.getParameter("login");
+        login = request.getParameter("log");
         password = request.getParameter("password");
 
         response.setContentType("text/html;charset=UTF-8");
