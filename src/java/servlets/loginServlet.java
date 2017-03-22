@@ -35,7 +35,7 @@ public class loginServlet extends HttpServlet {
         // Este paso simula la consulta a la base de datos para el usuario y el
         //password
         //Si devuelve 0 las dos cadenas son iguales, uno son diferentes
-if (login.compareTo("usuario") == 0  && password.compareTo("12345") == 0){
+if (login.compareTo("usur") == 0  && password.compareTo("12345") == 0){
 
             out.println ("Login correcto");
             HttpSession session = request.getSession(); // Se obtiene la sesion
